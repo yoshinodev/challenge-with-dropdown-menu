@@ -89,7 +89,7 @@ a:link {
 }
 .btn-primary:hover {
   background-color: transparent;
-  color: hsl(0deg, 0%, 8%);
+  color: hsl(360deg, 48%, 65%);
 }
 
 @media screen and (min-width: 900px) {
@@ -101,21 +101,21 @@ a:link {
 .btn-tertiary {
     border-radius: 10px;
     padding: 12px 25px;
-    color: hsl(0deg, 0%, 41%);
+    color: hsl(180deg, 48%, 65%);
     font-weight: 700;
     font-size: 1.6rem;
     transition: all 0.3s ease-in;
   }
   .btn-secondary:hover,
 .btn-tertiary:hover {
-    color: hsl(0deg, 0%, 8%);
+    color: hsl(360deg, 48%, 65%);
   }
 
   .btn-secondary {
     border: 2px solid hsl(0deg, 0%, 41%);
   }
   .btn-secondary:hover {
-    border: 2px solid hsl(0deg, 0%, 8%);
+    border: 2px solid hsl(360deg, 48%, 65%);
   }
 
   .nav-btn {
@@ -331,7 +331,7 @@ a:link {
   transition: all 0.3s ease-in;
 }
 .nav__sub-link:hover {
-  color: hsl(0deg, 0%, 8%);
+  color: hsl(360deg, 48%, 65%);
 }
 .nav__link-btn--open {
   display: block;
