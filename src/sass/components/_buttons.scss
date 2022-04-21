@@ -1,0 +1,78 @@
+.login-btn,
+.register-btn {
+  display: none;
+}
+
+.nav-btn {
+  position: relative;
+  z-index: 1;
+  &--open {
+    display: block;
+  }
+
+  &--close {
+    display: none;
+  }
+
+  &.active &--open {
+    display: none;
+  }
+
+  &.active &--close {
+    display: block;
+  }
+}
+
+.btn-primary {
+  border: 1px solid $primaryBlack;
+  border-radius: 10px;
+  padding: 13px 25px;
+  margin-bottom: 5rem;
+  background-color: $primaryBlack;
+  color: $secondaryWhite;
+  font-weight: 700;
+  font-size: 1.6rem;
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    background-color: transparent;
+    color: $primaryBlack;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .btn-primary {
+    margin-bottom: 10rem;
+  }
+
+  .btn-secondary,
+  .btn-tertiary {
+    border-radius: 10px;
+    padding: 12px 25px;
+    color: $primaryGray;
+    font-weight: 700;
+    font-size: 1.6rem;
+    transition: all 0.3s ease-in;
+
+    &:hover {
+      color: $primaryBlack;
+    }
+  }
+
+  .btn-secondary {
+    border: 2px solid $primaryGray;
+
+    &:hover {
+      border: 2px solid $primaryBlack;
+    }
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  .login-btn,
+  .register-btn {
+    display: block;
+  }
+}
